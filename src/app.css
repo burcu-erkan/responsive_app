@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+}
+
+.left_side {
+  border: 1px solid;
+  border-right: 2px solid #ccc;
+  width: 30%;
+}
+.none_side {
+  display: none;
+}
+.right_side {
+  text-align: center;
+  width: 70%;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .left_side {
+    width: 100%;
+  }
+  .right_side {
+    display: none;
+  }
+}

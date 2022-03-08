@@ -1,0 +1,33 @@
+.person_row {
+  display: flex;
+  justify-content: space-around;
+  height: 110px;
+  align-items: center;
+  padding: 1rem;
+  font-size: 15px;
+  border-bottom: 2px solid #ccc;
+  cursor: pointer;
+}
+.active_row {
+  display: flex;
+  justify-content: space-around;
+  height: 110px;
+  align-items: center;
+  padding: 1rem;
+  font-size: 15px;
+  border-bottom: 2px solid #ccc;
+  background-color: lightgrey;
+}
+.person_row img,
+.active_row img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.person_info {
+  width: 80%;
+}
+.person_info h2 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
